@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51329AB72B3DD21500469F20 /* HistoricalSuggestionCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51329AB62B3DD21500469F20 /* HistoricalSuggestionCardsView.swift */; };
+		5145F5BA2B31F94D003DE488 /* HealthCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5B92B31F94D003DE488 /* HealthCardsViewModel.swift */; };
+		5145F5C22B322E7A003DE488 /* HistoricalHealthCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5C12B322E7A003DE488 /* HistoricalHealthCardsView.swift */; };
+		5145F5C62B3236F2003DE488 /* ShareableHealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5C52B3236F2003DE488 /* ShareableHealthCardView.swift */; };
+		5145F5C82B32E947003DE488 /* HeartRateMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5C72B32E947003DE488 /* HeartRateMeasurementView.swift */; };
+		5145F5CE2B332D60003DE488 /* HeartRateMeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5CD2B332D60003DE488 /* HeartRateMeasurementViewModel.swift */; };
+		5145F5D22B3384ED003DE488 /* WeatherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5D12B3384ED003DE488 /* WeatherCardView.swift */; };
+		5145F5D42B34219A003DE488 /* WeatherCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5D32B34219A003DE488 /* WeatherCardsView.swift */; };
+		5145F5D62B3429AC003DE488 /* WeatherCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5D52B3429AC003DE488 /* WeatherCardsViewModel.swift */; };
+		5145F5DE2B34B8FC003DE488 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5DD2B34B8FC003DE488 /* Extensions.swift */; };
+		5145F5E02B34C16B003DE488 /* DecodableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5DF2B34C16B003DE488 /* DecodableModel.swift */; };
+		515A41F22B3C4AA8005B26C3 /* SuggestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F12B3C4AA8005B26C3 /* SuggestionsViewModel.swift */; };
+		515A41F42B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F32B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift */; };
+		515A41F62B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F52B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift */; };
+		515A41F82B3C67C5005B26C3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F72B3C67C5005B26C3 /* Errors.swift */; };
+		515A41FC2B3C8F51005B26C3 /* ErrorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41FB2B3C8F51005B26C3 /* ErrorCardView.swift */; };
+		515A41FE2B3CA1D9005B26C3 /* ChatGPTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41FD2B3CA1D9005B26C3 /* ChatGPTModel.swift */; };
+		515A42002B3D9E55005B26C3 /* LoadingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41FF2B3D9E55005B26C3 /* LoadingCardView.swift */; };
+		516CC8392B0DFBB000696BF1 /* WellnessAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516CC8382B0DFBB000696BF1 /* WellnessAIApp.swift */; };
+		516CC83D2B0DFBB200696BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516CC83C2B0DFBB200696BF1 /* Assets.xcassets */; };
+		516CC8402B0DFBB200696BF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516CC83F2B0DFBB200696BF1 /* Preview Assets.xcassets */; };
+		51D7E7FE2B2DFDB100E52818 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E7FD2B2DFDB100E52818 /* HomeView.swift */; };
+		51D7E8002B2E027200E52818 /* SuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E7FF2B2E027200E52818 /* SuggestionsView.swift */; };
+		51D7E8022B2E089D00E52818 /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E8012B2E089D00E52818 /* SuggestionView.swift */; };
+		51D7E8042B2EE80B00E52818 /* HealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E8032B2EE80B00E52818 /* HealthCardView.swift */; };
+		51D7E8062B2EEF6200E52818 /* HealthCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E8052B2EEF6200E52818 /* HealthCardsView.swift */; };
+		51D7E8082B2F205100E52818 /* HealthFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E8072B2F205100E52818 /* HealthFormView.swift */; };
+		51D7E80C2B2F217500E52818 /* HealthFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E80B2B2F217500E52818 /* HealthFormViewModel.swift */; };
+		51D7E8132B2F6AD400E52818 /* symptoms.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D7E8122B2F6AD400E52818 /* symptoms.json */; };
+		51D7E8152B2F6AF200E52818 /* intensities.json in Resources */ = {isa = PBXBuildFile; fileRef = 51D7E8142B2F6AF200E52818 /* intensities.json */; };
+		51D7E8182B2F6B7600E52818 /* WellnessAI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E8162B2F6B7600E52818 /* WellnessAI.xcdatamodeld */; };
+		51D7E81C2B30BABA00E52818 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E81B2B30BABA00E52818 /* Constants.swift */; };
+		51D7E81E2B30D75900E52818 /* AddHealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E81D2B30D75900E52818 /* AddHealthCardView.swift */; };
+		6F5D6DA42B17032400B721FC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F5D6DA32B17032300B721FC /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51329AB62B3DD21500469F20 /* HistoricalSuggestionCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalSuggestionCardsView.swift; sourceTree = "<group>"; };
+		5145F5B92B31F94D003DE488 /* HealthCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCardsViewModel.swift; sourceTree = "<group>"; };
+		5145F5C12B322E7A003DE488 /* HistoricalHealthCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalHealthCardsView.swift; sourceTree = "<group>"; };
+		5145F5C52B3236F2003DE488 /* ShareableHealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareableHealthCardView.swift; sourceTree = "<group>"; };
+		5145F5C72B32E947003DE488 /* HeartRateMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurementView.swift; sourceTree = "<group>"; };
+		5145F5CD2B332D60003DE488 /* HeartRateMeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurementViewModel.swift; sourceTree = "<group>"; };
+		5145F5D12B3384ED003DE488 /* WeatherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardView.swift; sourceTree = "<group>"; };
+		5145F5D32B34219A003DE488 /* WeatherCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardsView.swift; sourceTree = "<group>"; };
+		5145F5D52B3429AC003DE488 /* WeatherCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardsViewModel.swift; sourceTree = "<group>"; };
+		5145F5DD2B34B8FC003DE488 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5145F5DF2B34C16B003DE488 /* DecodableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableModel.swift; sourceTree = "<group>"; };
+		515A41F12B3C4AA8005B26C3 /* SuggestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewModel.swift; sourceTree = "<group>"; };
+		515A41F32B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherAPIResponseModel.swift; sourceTree = "<group>"; };
+		515A41F52B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleNearbyPlacesModel.swift; sourceTree = "<group>"; };
+		515A41F72B3C67C5005B26C3 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		515A41FB2B3C8F51005B26C3 /* ErrorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCardView.swift; sourceTree = "<group>"; };
+		515A41FD2B3CA1D9005B26C3 /* ChatGPTModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTModel.swift; sourceTree = "<group>"; };
+		515A41FF2B3D9E55005B26C3 /* LoadingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCardView.swift; sourceTree = "<group>"; };
+		516CC8352B0DFBB000696BF1 /* WellnessAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellnessAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516CC8382B0DFBB000696BF1 /* WellnessAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessAIApp.swift; sourceTree = "<group>"; };
+		516CC83C2B0DFBB200696BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516CC83F2B0DFBB200696BF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51D7E7FD2B2DFDB100E52818 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		51D7E7FF2B2E027200E52818 /* SuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsView.swift; sourceTree = "<group>"; };
+		51D7E8012B2E089D00E52818 /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
+		51D7E8032B2EE80B00E52818 /* HealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCardView.swift; sourceTree = "<group>"; };
+		51D7E8052B2EEF6200E52818 /* HealthCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCardsView.swift; sourceTree = "<group>"; };
+		51D7E8072B2F205100E52818 /* HealthFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFormView.swift; sourceTree = "<group>"; };
+		51D7E80B2B2F217500E52818 /* HealthFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFormViewModel.swift; sourceTree = "<group>"; };
+		51D7E8122B2F6AD400E52818 /* symptoms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = symptoms.json; sourceTree = "<group>"; };
+		51D7E8142B2F6AF200E52818 /* intensities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = intensities.json; sourceTree = "<group>"; };
+		51D7E8172B2F6B7600E52818 /* WellnessAI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WellnessAI.xcdatamodel; sourceTree = "<group>"; };
+		51D7E81B2B30BABA00E52818 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		51D7E81D2B30D75900E52818 /* AddHealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHealthCardView.swift; sourceTree = "<group>"; };
+		6F5D6DA32B17032300B721FC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D0A3E5C62B1874200061EF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516CC8322B0DFBB000696BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5145F5D92B34A28F003DE488 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				51FD0B4B2B419E6D00B1873C /* Shared */,
+				5145F5DC2B34A2C3003DE488 /* Suggestion */,
+				5145F5DB2B34A2B6003DE488 /* Weather */,
+				5145F5DA2B34A2AE003DE488 /* Health */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5145F5DA2B34A2AE003DE488 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				51D7E8122B2F6AD400E52818 /* symptoms.json */,
+				51D7E8142B2F6AF200E52818 /* intensities.json */,
+				5145F5DF2B34C16B003DE488 /* DecodableModel.swift */,
+				51D7E80B2B2F217500E52818 /* HealthFormViewModel.swift */,
+				5145F5B92B31F94D003DE488 /* HealthCardsViewModel.swift */,
+				5145F5CD2B332D60003DE488 /* HeartRateMeasurementViewModel.swift */,
+				51D7E8032B2EE80B00E52818 /* HealthCardView.swift */,
+				51D7E81D2B30D75900E52818 /* AddHealthCardView.swift */,
+				51D7E8052B2EEF6200E52818 /* HealthCardsView.swift */,
+				51D7E8072B2F205100E52818 /* HealthFormView.swift */,
+				5145F5C12B322E7A003DE488 /* HistoricalHealthCardsView.swift */,
+				5145F5C52B3236F2003DE488 /* ShareableHealthCardView.swift */,
+				5145F5C72B32E947003DE488 /* HeartRateMeasurementView.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		5145F5DB2B34A2B6003DE488 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				5145F5D12B3384ED003DE488 /* WeatherCardView.swift */,
+				5145F5D32B34219A003DE488 /* WeatherCardsView.swift */,
+				5145F5D52B3429AC003DE488 /* WeatherCardsViewModel.swift */,
+				515A41F32B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		5145F5DC2B34A2C3003DE488 /* Suggestion */ = {
+			isa = PBXGroup;
+			children = (
+				51D7E7FF2B2E027200E52818 /* SuggestionsView.swift */,
+				51D7E8012B2E089D00E52818 /* SuggestionView.swift */,
+				515A41F12B3C4AA8005B26C3 /* SuggestionsViewModel.swift */,
+				51329AB62B3DD21500469F20 /* HistoricalSuggestionCardsView.swift */,
+				515A41F52B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift */,
+				515A41FD2B3CA1D9005B26C3 /* ChatGPTModel.swift */,
+			);
+			path = Suggestion;
+			sourceTree = "<group>";
+		};
+		516CC82C2B0DFBB000696BF1 = {
+			isa = PBXGroup;
+			children = (
+				516CC8372B0DFBB000696BF1 /* WellnessAI */,
+				516CC8362B0DFBB000696BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516CC8362B0DFBB000696BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516CC8352B0DFBB000696BF1 /* WellnessAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516CC8372B0DFBB000696BF1 /* WellnessAI */ = {
+			isa = PBXGroup;
+			children = (
+				D0A3E5C62B1874200061EF0F /* Info.plist */,
+				6F5D6DA32B17032300B721FC /* Settings.bundle */,
+				5145F5D92B34A28F003DE488 /* Modules */,
+				516CC8382B0DFBB000696BF1 /* WellnessAIApp.swift */,
+				51D7E7FD2B2DFDB100E52818 /* HomeView.swift */,
+				51D7E8162B2F6B7600E52818 /* WellnessAI.xcdatamodeld */,
+				516CC83C2B0DFBB200696BF1 /* Assets.xcassets */,
+				516CC83E2B0DFBB200696BF1 /* Preview Content */,
+			);
+			path = WellnessAI;
+			sourceTree = "<group>";
+		};
+		516CC83E2B0DFBB200696BF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				516CC83F2B0DFBB200696BF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51FD0B4B2B419E6D00B1873C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				515A41F72B3C67C5005B26C3 /* Errors.swift */,
+				51D7E81B2B30BABA00E52818 /* Constants.swift */,
+				5145F5DD2B34B8FC003DE488 /* Extensions.swift */,
+				515A41FF2B3D9E55005B26C3 /* LoadingCardView.swift */,
+				515A41FB2B3C8F51005B26C3 /* ErrorCardView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516CC8342B0DFBB000696BF1 /* WellnessAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516CC8432B0DFBB200696BF1 /* Build configuration list for PBXNativeTarget "WellnessAI" */;
+			buildPhases = (
+				516CC8312B0DFBB000696BF1 /* Sources */,
+				516CC8322B0DFBB000696BF1 /* Frameworks */,
+				516CC8332B0DFBB000696BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WellnessAI;
+			productName = WellnessAI;
+			productReference = 516CC8352B0DFBB000696BF1 /* WellnessAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516CC82D2B0DFBB000696BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					516CC8342B0DFBB000696BF1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 516CC8302B0DFBB000696BF1 /* Build configuration list for PBXProject "WellnessAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516CC82C2B0DFBB000696BF1;
+			productRefGroup = 516CC8362B0DFBB000696BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516CC8342B0DFBB000696BF1 /* WellnessAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516CC8332B0DFBB000696BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516CC8402B0DFBB200696BF1 /* Preview Assets.xcassets in Resources */,
+				51D7E8132B2F6AD400E52818 /* symptoms.json in Resources */,
+				6F5D6DA42B17032400B721FC /* Settings.bundle in Resources */,
+				51D7E8152B2F6AF200E52818 /* intensities.json in Resources */,
+				516CC83D2B0DFBB200696BF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516CC8312B0DFBB000696BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5145F5DE2B34B8FC003DE488 /* Extensions.swift in Sources */,
+				51D7E8002B2E027200E52818 /* SuggestionsView.swift in Sources */,
+				5145F5D62B3429AC003DE488 /* WeatherCardsViewModel.swift in Sources */,
+				5145F5C62B3236F2003DE488 /* ShareableHealthCardView.swift in Sources */,
+				515A41F42B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift in Sources */,
+				515A41F62B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift in Sources */,
+				515A41F82B3C67C5005B26C3 /* Errors.swift in Sources */,
+				51D7E81C2B30BABA00E52818 /* Constants.swift in Sources */,
+				51D7E8022B2E089D00E52818 /* SuggestionView.swift in Sources */,
+				51D7E80C2B2F217500E52818 /* HealthFormViewModel.swift in Sources */,
+				515A41FC2B3C8F51005B26C3 /* ErrorCardView.swift in Sources */,
+				5145F5CE2B332D60003DE488 /* HeartRateMeasurementViewModel.swift in Sources */,
+				515A42002B3D9E55005B26C3 /* LoadingCardView.swift in Sources */,
+				5145F5C22B322E7A003DE488 /* HistoricalHealthCardsView.swift in Sources */,
+				51329AB72B3DD21500469F20 /* HistoricalSuggestionCardsView.swift in Sources */,
+				51D7E7FE2B2DFDB100E52818 /* HomeView.swift in Sources */,
+				5145F5D22B3384ED003DE488 /* WeatherCardView.swift in Sources */,
+				515A41F22B3C4AA8005B26C3 /* SuggestionsViewModel.swift in Sources */,
+				51D7E8042B2EE80B00E52818 /* HealthCardView.swift in Sources */,
+				51D7E8182B2F6B7600E52818 /* WellnessAI.xcdatamodeld in Sources */,
+				516CC8392B0DFBB000696BF1 /* WellnessAIApp.swift in Sources */,
+				515A41FE2B3CA1D9005B26C3 /* ChatGPTModel.swift in Sources */,
+				5145F5E02B34C16B003DE488 /* DecodableModel.swift in Sources */,
+				5145F5BA2B31F94D003DE488 /* HealthCardsViewModel.swift in Sources */,
+				51D7E81E2B30D75900E52818 /* AddHealthCardView.swift in Sources */,
+				5145F5D42B34219A003DE488 /* WeatherCardsView.swift in Sources */,
+				5145F5C82B32E947003DE488 /* HeartRateMeasurementView.swift in Sources */,
+				51D7E8062B2EEF6200E52818 /* HealthCardsView.swift in Sources */,
+				51D7E8082B2F205100E52818 /* HealthFormView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		516CC8412B0DFBB200696BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		516CC8422B0DFBB200696BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516CC8442B0DFBB200696BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WellnessAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z6YAT98PW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellnessAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please provide camera access";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location services";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please provide photo library access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.projects.WellnessAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		516CC8452B0DFBB200696BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WellnessAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z6YAT98PW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellnessAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please provide camera access";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location services";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please provide photo library access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.projects.WellnessAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516CC8302B0DFBB000696BF1 /* Build configuration list for PBXProject "WellnessAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516CC8412B0DFBB200696BF1 /* Debug */,
+				516CC8422B0DFBB200696BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516CC8432B0DFBB200696BF1 /* Build configuration list for PBXNativeTarget "WellnessAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516CC8442B0DFBB200696BF1 /* Debug */,
+				516CC8452B0DFBB200696BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51D7E8162B2F6B7600E52818 /* WellnessAI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51D7E8172B2F6B7600E52818 /* WellnessAI.xcdatamodel */,
+			);
+			currentVersion = 51D7E8172B2F6B7600E52818 /* WellnessAI.xcdatamodel */;
+			path = WellnessAI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 516CC82D2B0DFBB000696BF1 /* Project object */;
+}

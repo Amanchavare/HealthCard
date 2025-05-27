@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22222" systemVersion="23B92" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="FineTuneParameter" representedClassName=".FineTuneParameter" syncable="YES" codeGenerationType="class">
+        <attribute name="label" attributeType="String"/>
+        <attribute name="value" attributeType="String"/>
+        <relationship name="suggestion" maxCount="1" deletionRule="Nullify" destinationEntity="Suggestion" inverseName="parameters" inverseEntity="Suggestion"/>
+    </entity>
+    <entity name="Suggestion" representedClassName=".Suggestion" syncable="YES" codeGenerationType="class">
+        <attribute name="content" attributeType="String"/>
+        <attribute name="source" attributeType="String"/>
+        <relationship name="parameters" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FineTuneParameter" inverseName="suggestion" inverseEntity="FineTuneParameter"/>
+        <relationship name="userSession" maxCount="1" deletionRule="Nullify" destinationEntity="UserSession" inverseName="suggestions" inverseEntity="UserSession"/>
+    </entity>
+    <entity name="Symptom" representedClassName=".Symptom" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="userSymptoms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserSymptom" inverseName="symptom" inverseEntity="UserSymptom"/>
+    </entity>
+    <entity name="UserMeasurement" representedClassName=".UserMeasurement" syncable="YES" codeGenerationType="class">
+        <attribute name="heartRate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="respRate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="userSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserSession" inverseName="userMeasurement" inverseEntity="UserSession"/>
+    </entity>
+    <entity name="UserSession" representedClassName=".UserSession" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="uuid" attributeType="String"/>
+        <relationship name="suggestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Suggestion" inverseName="userSession" inverseEntity="Suggestion"/>
+        <relationship name="userMeasurement" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserMeasurement" inverseName="userSession" inverseEntity="UserMeasurement"/>
+        <relationship name="userSymptoms" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="UserSymptom" inverseName="userSession" inverseEntity="UserSymptom"/>
+        <relationship name="weather" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Weather" inverseName="userSession" inverseEntity="Weather"/>
+    </entity>
+    <entity name="UserSymptom" representedClassName=".UserSymptom" syncable="YES" codeGenerationType="class">
+        <attribute name="intensityLabel" attributeType="String"/>
+        <attribute name="intensityValue" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="symptom" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Symptom" inverseName="userSymptoms" inverseEntity="Symptom"/>
+        <relationship name="userSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserSession" inverseName="userSymptoms" inverseEntity="UserSession"/>
+    </entity>
+    <entity name="Weather" representedClassName=".Weather" syncable="YES" codeGenerationType="class">
+        <attribute name="currentTemp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="feelsLikeTemp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="humidity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="iconSystemName" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="locationName" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="maxTemp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="minTemp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pressure" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="units" optional="YES" attributeType="String"/>
+        <attribute name="visibility" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="weatherDescription" optional="YES" attributeType="String"/>
+        <attribute name="weatherMain" optional="YES" attributeType="String"/>
+        <attribute name="windSpeed" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="userSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserSession" inverseName="weather" inverseEntity="UserSession"/>
+    </entity>
+</model>
