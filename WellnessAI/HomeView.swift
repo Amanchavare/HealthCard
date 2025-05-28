@@ -18,9 +18,7 @@ struct HomeView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .leading, spacing: 24) {
-                    SuggestionsView(viewModel: suggestionsViewModel).padding()
                     HealthCardsView().padding()
-                    WeatherCardsView(viewModel: weatherViewModel).padding()
                 }
             }
             .navigationTitle("WellnessAI")
