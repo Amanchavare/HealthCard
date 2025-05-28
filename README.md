@@ -54,4 +54,4 @@ We are working on expanding the app with AI-powered analytics to:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/HealthCard.git
+   git clone https://github.com/Amanchavare/HealthCard.git
