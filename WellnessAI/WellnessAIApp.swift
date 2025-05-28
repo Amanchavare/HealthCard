@@ -1,9 +1,4 @@
-//
-//  WellnessAIApp.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 11/22/23.
-//
+
 
 import SwiftUI
 import CoreData
