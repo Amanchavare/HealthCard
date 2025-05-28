@@ -1,9 +1,4 @@
-//
-//  AddHealthCardView.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/19/23.
-//
+
 
 import SwiftUI
 

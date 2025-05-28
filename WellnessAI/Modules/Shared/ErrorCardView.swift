@@ -1,9 +1,4 @@
-//
-//  ErrorCardView.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/27/23.
-//
+
 
 import SwiftUI
 

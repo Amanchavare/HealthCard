@@ -1,9 +1,4 @@
-//
-//  HeartRateMeasurementView.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/20/23.
-//
+
 
 import SwiftUI
 import AVFoundation

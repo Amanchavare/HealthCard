@@ -1,9 +1,4 @@
-//
-//  WeatherCardsViewModel.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/21/23.
-//
+
 
 import Foundation
 import CoreLocation

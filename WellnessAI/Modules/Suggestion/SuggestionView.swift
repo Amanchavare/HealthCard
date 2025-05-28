@@ -1,9 +1,4 @@
-//
-//  SuggestionView.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/16/23.
-//
+
 
 import SwiftUI
 

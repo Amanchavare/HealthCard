@@ -1,9 +1,4 @@
-//
-//  HistoricalSuggestionsCardView.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/28/23.
-//
+
 
 import SwiftUI
 

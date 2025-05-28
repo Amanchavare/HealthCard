@@ -1,9 +1,4 @@
-//
-//  Constants.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/18/23.
-//
+
 
 import SwiftUI
 

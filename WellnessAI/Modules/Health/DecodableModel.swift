@@ -1,9 +1,4 @@
-//
-//  DecodableViewModel.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/22/23.
-//
+
 
 import Foundation
 

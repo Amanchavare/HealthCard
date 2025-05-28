@@ -1,9 +1,4 @@
-//
-//  GoogleNearbyPlacesModel.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/27/23.
-//
+
 
 import Foundation
 import CoreLocation

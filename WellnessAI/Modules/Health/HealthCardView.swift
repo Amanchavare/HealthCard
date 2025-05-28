@@ -1,9 +1,4 @@
-//
-//  SummaryCardView.swift
-//  WellnessAI
-//
-//  Created by Shubham Chawla on 12/17/23.
-//
+
 
 import SwiftUI
 
