@@ -13,13 +13,9 @@
 		5145F5C62B3236F2003DE488 /* ShareableHealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5C52B3236F2003DE488 /* ShareableHealthCardView.swift */; };
 		5145F5C82B32E947003DE488 /* HeartRateMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5C72B32E947003DE488 /* HeartRateMeasurementView.swift */; };
 		5145F5CE2B332D60003DE488 /* HeartRateMeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5CD2B332D60003DE488 /* HeartRateMeasurementViewModel.swift */; };
-		5145F5D22B3384ED003DE488 /* WeatherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5D12B3384ED003DE488 /* WeatherCardView.swift */; };
-		5145F5D42B34219A003DE488 /* WeatherCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5D32B34219A003DE488 /* WeatherCardsView.swift */; };
-		5145F5D62B3429AC003DE488 /* WeatherCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5D52B3429AC003DE488 /* WeatherCardsViewModel.swift */; };
 		5145F5DE2B34B8FC003DE488 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5DD2B34B8FC003DE488 /* Extensions.swift */; };
 		5145F5E02B34C16B003DE488 /* DecodableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145F5DF2B34C16B003DE488 /* DecodableModel.swift */; };
 		515A41F22B3C4AA8005B26C3 /* SuggestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F12B3C4AA8005B26C3 /* SuggestionsViewModel.swift */; };
-		515A41F42B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F32B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift */; };
 		515A41F62B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F52B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift */; };
 		515A41F82B3C67C5005B26C3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41F72B3C67C5005B26C3 /* Errors.swift */; };
 		515A41FC2B3C8F51005B26C3 /* ErrorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515A41FB2B3C8F51005B26C3 /* ErrorCardView.swift */; };
@@ -41,6 +37,7 @@
 		51D7E81C2B30BABA00E52818 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E81B2B30BABA00E52818 /* Constants.swift */; };
 		51D7E81E2B30D75900E52818 /* AddHealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7E81D2B30D75900E52818 /* AddHealthCardView.swift */; };
 		6F5D6DA42B17032400B721FC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F5D6DA32B17032300B721FC /* Settings.bundle */; };
+		9D9BC0B12E0076AC000303D4 /* WelcomeHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9BC0B02E0076AC000303D4 /* WelcomeHealthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,13 +47,9 @@
 		5145F5C52B3236F2003DE488 /* ShareableHealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareableHealthCardView.swift; sourceTree = "<group>"; };
 		5145F5C72B32E947003DE488 /* HeartRateMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurementView.swift; sourceTree = "<group>"; };
 		5145F5CD2B332D60003DE488 /* HeartRateMeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurementViewModel.swift; sourceTree = "<group>"; };
-		5145F5D12B3384ED003DE488 /* WeatherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardView.swift; sourceTree = "<group>"; };
-		5145F5D32B34219A003DE488 /* WeatherCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardsView.swift; sourceTree = "<group>"; };
-		5145F5D52B3429AC003DE488 /* WeatherCardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCardsViewModel.swift; sourceTree = "<group>"; };
 		5145F5DD2B34B8FC003DE488 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5145F5DF2B34C16B003DE488 /* DecodableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableModel.swift; sourceTree = "<group>"; };
 		515A41F12B3C4AA8005B26C3 /* SuggestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewModel.swift; sourceTree = "<group>"; };
-		515A41F32B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherAPIResponseModel.swift; sourceTree = "<group>"; };
 		515A41F52B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleNearbyPlacesModel.swift; sourceTree = "<group>"; };
 		515A41F72B3C67C5005B26C3 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		515A41FB2B3C8F51005B26C3 /* ErrorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCardView.swift; sourceTree = "<group>"; };
@@ -79,6 +72,7 @@
 		51D7E81B2B30BABA00E52818 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		51D7E81D2B30D75900E52818 /* AddHealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHealthCardView.swift; sourceTree = "<group>"; };
 		6F5D6DA32B17032300B721FC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		9D9BC0B02E0076AC000303D4 /* WelcomeHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeHealthView.swift; sourceTree = "<group>"; };
 		D0A3E5C62B1874200061EF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +92,6 @@
 			children = (
 				51FD0B4B2B419E6D00B1873C /* Shared */,
 				5145F5DC2B34A2C3003DE488 /* Suggestion */,
-				5145F5DB2B34A2B6003DE488 /* Weather */,
 				5145F5DA2B34A2AE003DE488 /* Health */,
 			);
 			path = Modules;
@@ -120,19 +113,9 @@
 				5145F5C12B322E7A003DE488 /* HistoricalHealthCardsView.swift */,
 				5145F5C52B3236F2003DE488 /* ShareableHealthCardView.swift */,
 				5145F5C72B32E947003DE488 /* HeartRateMeasurementView.swift */,
+				9D9BC0B02E0076AC000303D4 /* WelcomeHealthView.swift */,
 			);
 			path = Health;
-			sourceTree = "<group>";
-		};
-		5145F5DB2B34A2B6003DE488 /* Weather */ = {
-			isa = PBXGroup;
-			children = (
-				5145F5D12B3384ED003DE488 /* WeatherCardView.swift */,
-				5145F5D32B34219A003DE488 /* WeatherCardsView.swift */,
-				5145F5D52B3429AC003DE488 /* WeatherCardsViewModel.swift */,
-				515A41F32B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift */,
-			);
-			path = Weather;
 			sourceTree = "<group>";
 		};
 		5145F5DC2B34A2C3003DE488 /* Suggestion */ = {
@@ -274,9 +257,7 @@
 			files = (
 				5145F5DE2B34B8FC003DE488 /* Extensions.swift in Sources */,
 				51D7E8002B2E027200E52818 /* SuggestionsView.swift in Sources */,
-				5145F5D62B3429AC003DE488 /* WeatherCardsViewModel.swift in Sources */,
 				5145F5C62B3236F2003DE488 /* ShareableHealthCardView.swift in Sources */,
-				515A41F42B3C561E005B26C3 /* OpenWeatherAPIResponseModel.swift in Sources */,
 				515A41F62B3C6155005B26C3 /* GoogleNearbyPlacesModel.swift in Sources */,
 				515A41F82B3C67C5005B26C3 /* Errors.swift in Sources */,
 				51D7E81C2B30BABA00E52818 /* Constants.swift in Sources */,
@@ -288,16 +269,15 @@
 				5145F5C22B322E7A003DE488 /* HistoricalHealthCardsView.swift in Sources */,
 				51329AB72B3DD21500469F20 /* HistoricalSuggestionCardsView.swift in Sources */,
 				51D7E7FE2B2DFDB100E52818 /* HomeView.swift in Sources */,
-				5145F5D22B3384ED003DE488 /* WeatherCardView.swift in Sources */,
 				515A41F22B3C4AA8005B26C3 /* SuggestionsViewModel.swift in Sources */,
 				51D7E8042B2EE80B00E52818 /* HealthCardView.swift in Sources */,
 				51D7E8182B2F6B7600E52818 /* WellnessAI.xcdatamodeld in Sources */,
 				516CC8392B0DFBB000696BF1 /* WellnessAIApp.swift in Sources */,
 				515A41FE2B3CA1D9005B26C3 /* ChatGPTModel.swift in Sources */,
+				9D9BC0B12E0076AC000303D4 /* WelcomeHealthView.swift in Sources */,
 				5145F5E02B34C16B003DE488 /* DecodableModel.swift in Sources */,
 				5145F5BA2B31F94D003DE488 /* HealthCardsViewModel.swift in Sources */,
 				51D7E81E2B30D75900E52818 /* AddHealthCardView.swift in Sources */,
-				5145F5D42B34219A003DE488 /* WeatherCardsView.swift in Sources */,
 				5145F5C82B32E947003DE488 /* HeartRateMeasurementView.swift in Sources */,
 				51D7E8062B2EEF6200E52818 /* HealthCardsView.swift in Sources */,
 				51D7E8082B2F205100E52818 /* HealthFormView.swift in Sources */,
@@ -434,7 +414,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WellnessAI/Preview Content\"";
-				DEVELOPMENT_TEAM = 4Z6YAT98PW;
+				DEVELOPMENT_TEAM = TKMP9Q3A95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WellnessAI/Info.plist;
@@ -469,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WellnessAI/Preview Content\"";
-				DEVELOPMENT_TEAM = 4Z6YAT98PW;
+				DEVELOPMENT_TEAM = TKMP9Q3A95;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WellnessAI/Info.plist;
